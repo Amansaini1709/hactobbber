@@ -1,0 +1,13 @@
+#Function to find the Factorial of a number using recursion
+def recur factorial:
+    if n==1:
+        return n
+    else:
+        returnn*recur factorial(n-1)
+num=input("Enter a number: ")        
+if num<0:
+    print("Sorry, factorial for a negative number does not exist")
+elif num==0:
+    print("the factorial of 0 is 1")
+else:
+    print("The factorial of",num,"is",recur factorial(num))
